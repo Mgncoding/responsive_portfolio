@@ -1,15 +1,16 @@
 @import url("reset.css");
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Dancing Script', cursive;
 
   /* Typography */
-  font-size: 18px;
+  font-size: 20px;
   line-height: 34px;
   color: #777;
+  background-color: #f1f1f1
 
   /* Visual */
-  background: url("../images/concrete_seamless.png");
+  /* background: url("../images/concrete_seamless.png"); */
 }
 
 * {
@@ -46,6 +47,7 @@ body {
   /* Positioning */
   margin: 0 auto;
   clear: both;
+ 
 }
 
 h1,
@@ -63,7 +65,7 @@ h1,
 h2,
 h3 {
   /* Typography */
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Black Ops One', cursive;
   font-weight: 700;
   color: #4aaaa5;
 }
@@ -99,8 +101,8 @@ h3 {
   overflow: auto;
 
   /* Typography */
-  color: #fff;
-  background: #fff;
+  color: #2c7873;
+  background: transparent;
 
   /* Visual */
   border-bottom: 2px solid #ccc;
@@ -114,16 +116,16 @@ h3 {
   height: 90px;
 
   /* Typography */
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Courgette', cursive;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: #004445;
   text-align: center;
   text-decoration: none;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #6Fb98F;
 }
 
 nav {
@@ -152,12 +154,13 @@ nav li {
 
 nav a {
   /* Typography */
-  color: #999;
+  color: #2c7873;
   text-decoration: none;
+  text-shadow: 1px 1px 5px #021C1E, 2px 1px 25px #004445 , 2px 1px 25px #6Fb98F;
 }
 
 nav a:hover {
-  color: #666;
+  color: rgba(12, 97, 31, 0.87);
 }
 
 nav li:first-child {
@@ -191,8 +194,8 @@ footer {
   text-align: center;
 
   /* Visual */
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: #021C1E;
+  border-top: 8px solid #2c7873;
 }
 
 /* sidebar */
@@ -384,6 +387,7 @@ input[type=submit] {
   border: 0 none;
 
 }
+
 
 @media only screen and (max-width:980px) {
   nav {

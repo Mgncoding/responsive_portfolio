@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "first update",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mgncoding/responsive_portfolio.git"
+  },
+  "author": "Michael Nault",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mgncoding/responsive_portfolio/issues"
+  },
+  "homepage": "https://github.com/Mgncoding/responsive_portfolio#readme"
+}
