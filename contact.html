@@ -6,29 +6,35 @@
   <title>Contact | Michael Nault</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Courgette|Dancing+Script" rel="stylesheet">
+  <!-- Animate css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
 
+  
 <div class="wrapper">
-
-  <header id="masthead">
-    <div class="container">
+  <figure>
+    
+    <header id="masthead">
+      <div class="container">
       <a href="index.html" id="logo">Michael Nault</a>
       <nav>
         <ul>
           <li><a href="index.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://github.com/Mgncoding">GitHub</a></li>
         </ul>
       </nav>
     </div>
   </header>
-
+  
   <main class="container">
+    
     <section class="main-section">
       <h1>Contact</h1>
 
-      <form id="contact-form">
+      <!-- Able to send a direct email using mailto -->
+      <form id="contact-form" action="mailto:naultmichael1@gmail.com" method="POST">
         <ul>
           <li>
             <label for="name">Name</label>
@@ -47,16 +53,19 @@
       </form>
 
     </section>
-
+    
   </main>
   <div class="push"></div>
 </div>
 
-  <footer>
-    <div class="container">
-      &copy; Copyright
-    </div>
-  </footer>
+
+<footer>
+  <div class="container">
+    &copy; Copyright
+  </div>
+  <!-- <img width="100%" src="assets/images/background.png"> -->
+  </figure>
+</footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
   crossorigin="anonymous"></script>
